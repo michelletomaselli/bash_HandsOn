@@ -61,7 +61,7 @@ nano bin/usage.sh #Add the modifications into the file, so can print the correct
                   #Info to add --> echo "The script $0 has received the argument $1"
 PATH="$PATH:/Users/michelletomaselli/bash_HandsOn/bin" #Give the path environment to the folder
 chmod +x bin/usage.sh #Give executions permissions to the document 
-./usage.sh ACTG  #Run from any position and write an argument
+usage.sh ACTG  #Run from any position and write an argument
 
 # Task -> 6
 wget https://github.com/dgarrimar/teaching/raw/master/uvic/AdvBI_2018/data/hands-on/bash/unknown.samples.tsv #Download the document into bash_HandsOn
